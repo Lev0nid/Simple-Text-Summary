@@ -20,6 +20,7 @@ Go to [Simple Text Summary](https://simple-text-summary.streamlit.app/) to try l
 ### How to build from scratch
 
 1. Set up and activate virtual environment
-2. Install dependencies: [streamlit](https://docs.streamlit.io/library/get-started/installation),
+2. Install dependencies: ```pip install -r requirements.txt```
+or you can install them separately [streamlit](https://docs.streamlit.io/library/get-started/installation),
 [torch](https://pytorch.org/get-started/locally/), transformers ```pip install -U transformers```
 3. Use command ```streamlit run main.py``` to start application
