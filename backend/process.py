@@ -9,5 +9,4 @@ summarizer = pipeline(
 
 
 def make_summary(text: str):
-    if text != '':
-        return str(summarizer(text)[0]['summary_text'])
+    return str(summarizer(text)[0]['summary_text'])
