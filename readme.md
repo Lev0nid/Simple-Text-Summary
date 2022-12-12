@@ -11,7 +11,7 @@ for backend
 ### Web version
 
 Go to [Simple Text Summary](https://simple-text-summary.streamlit.app/) to try last release or
-[wip Simple Text Summary](https://wip-simple-text-summary.streamlit.app/) to try last work-in-progress version.
+[development version of Simple Text Summary](https://wip-simple-text-summary.streamlit.app/) to try last work-in-progress version.
 
 1. Input text in text area or upload a text file
 2. Click **Submit** button
