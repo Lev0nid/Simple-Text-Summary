@@ -6,9 +6,9 @@ This application uses [streamlit](https://streamlit.io) framework for frontend a
 [long-t5-tglobal-base-16384 + BookSum](https://huggingface.co/pszemraj/long-t5-tglobal-base-16384-book-summary)
 for backend
 
-# How to use this application
+## How to use this application
 
-# Web version
+### Web version
 
 Go to [Simple Text Summary](https://simple-text-summary.streamlit.app/) to try last release or
 [wip Simple Text Summary](https://wip-simple-text-summary.streamlit.app/) to try last work-in-progress version.
@@ -17,7 +17,7 @@ Go to [Simple Text Summary](https://simple-text-summary.streamlit.app/) to try l
 2. Click **Submit** button
 3. Click **Download Summary** button when it appears
 
-# How to build
+### How to build from scratch
 
 1. Install dependencies: [streamlit](https://docs.streamlit.io/library/get-started/installation),
 [torch](https://pytorch.org/get-started/locally/), transformers ```pip install -U transformers```
