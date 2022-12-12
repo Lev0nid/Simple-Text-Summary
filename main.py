@@ -15,7 +15,7 @@ if submitted:
     text = ''
     file_name = 'Summary.txt'
     if uploaded_file is not None:
-        file_name = uploaded_file.name[:-4] + ' summary.txt'
+        file_name = uploaded_file.name[:-len('.txt')] + ' summary.txt'
         text = StringIO(uploaded_file.getvalue().decode("utf-8")).read()
     else:
         text = txt
